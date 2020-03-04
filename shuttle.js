@@ -12,7 +12,7 @@ console.log(typeof miles)
 
 let milesToMars = (mars * miles)
 
-let hoursToMars = (milesToMars / miles)
+let hoursToMars = (milesToMars / speed)
 
 let daysToMars = (hoursToMars / 24)
 
@@ -26,7 +26,7 @@ console.log(shuttleName + " will take " + daysToMars + " days to reach Mars.")
 
 let milesToMoon = (moon * miles)
 
-let hoursToMoon = (milesToMoon / miles)
+let hoursToMoon = (milesToMoon / speed)
 
 let daysToMoon = (hoursToMoon / 24)
 
